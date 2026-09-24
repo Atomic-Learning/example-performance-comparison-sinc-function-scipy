@@ -11,7 +11,6 @@ The code below defines a custom Python implementation of the sinc function and t
 ```py-cell
 import time
 import math
-import numpy as np
 
 # Define a non-SciPy sinc
 def sinc_non_scipy(x):

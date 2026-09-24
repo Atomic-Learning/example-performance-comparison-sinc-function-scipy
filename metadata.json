@@ -20,5 +20,9 @@
     ],
     "related": [
         "numpy-scipy-performance-log-function"
+    ],
+    "python_packages": [
+        "scipy",
+        "numpy"
     ]
 }
