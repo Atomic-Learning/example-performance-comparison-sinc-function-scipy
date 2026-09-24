@@ -19,7 +19,6 @@
         "python-importing-from-submodules-in-packages"
     ],
     "related": [
-        "numpy-scipy-performance-log-function"
     ],
     "python_packages": [
         "scipy",

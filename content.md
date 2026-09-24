@@ -88,8 +88,7 @@ def sinc_non_scipy(x):
 a = [i for i in range(1, 100000)]
 
 start_time = time.time()
-for i in range(repetitions):
-  c = list(map(sinc_non_scipy, a))
+c = list(map(sinc_non_scipy, a))
 print('Non-SciPy sinc of list:', time.time() - start_time)
 ```
 
@@ -105,8 +104,7 @@ import numpy as np
 a = np.arange(1, 100000)
 
 start_time = time.time()
-for i in range(repetitions):
-  c = sinc(a)
+c = sinc(a)
 print('SciPy sinc of array:', time.time() - start_time)
 ```
 
