@@ -38,7 +38,7 @@ repetitions = 100000
 start_time = time.time()
 for i in range(repetitions):
   c = sinc(1)
-print('SciPy single sinc (second run):', time.time() - start_time)
+print('SciPy single sinc:', time.time() - start_time)
 ```
 
 ## Explanation
@@ -89,7 +89,7 @@ a = [i for i in range(1, 1000000)]
 
 start_time = time.time()
 c = list(map(sinc_non_scipy, a))
-print('Non-SciPy sinc of list:', time.time() - start_time)
+print('Map-based sinc of list:', time.time() - start_time)
 ```
 
 ## SciPy Implementation
