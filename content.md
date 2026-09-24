@@ -85,7 +85,7 @@ def sinc_non_scipy(x):
   return math.sin(math.pi * x)/(math.pi * x)
 
 # Create the list we will take the sinc of
-a = [i for i in range(1, 100000)]
+a = [i for i in range(1, 1000000)]
 
 start_time = time.time()
 c = list(map(sinc_non_scipy, a))
@@ -93,6 +93,8 @@ print('Non-SciPy sinc of list:', time.time() - start_time)
 ```
 
 ## SciPy Implementation
+
+The code below uses the `scipy.special.sinc()` function on a NumPy array.
 
 ```py-cell
 import time
