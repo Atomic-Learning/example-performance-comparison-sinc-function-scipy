@@ -1,22 +1,24 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
+    "title": "SciPy: Sinc Function Performance",
+    "slug": "scipy-performance-sinc-function",
+    "description": "Compares the time taken to calculate the sinc function for a single value and for a sequence of values using a custom Python implementation versus SciPy's sinc function, showing that the best choice depends on the input type.",
     "authors": [
-        "",
-        ""
+        "chris-cooling",
+        "giorgia-del-missier"
     ],
     "tags": [
-        "",
-        ""
+        "python",
+        "scipy"
     ],
-    "duration": 0,
+    "duration": 5,
     "prerequisites": [
-        "",
-        ""
+        "scipy-sinc",
+        "programming-profiling-time-variability",
+        "python-measuring-elapsed-time-with-time-function",
+        "python-range-in-for-loops",
+        "python-importing-from-submodules-in-packages",
     ],
     "related": [
-        "",
-        ""
+        "numpy-scipy-performance-log-function"
     ]
 }
