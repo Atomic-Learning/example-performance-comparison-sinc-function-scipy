@@ -69,8 +69,7 @@ start_time = time.time()
 b = []
 for entry in a:
   b.append(sinc_non_scipy(entry))
-end_time = time.time()
-print('Loop-based sinc of list:', end_time - start_time)
+print('Loop-based sinc of list:', time.time()- start_time)
 ```
 
 ## Native Python Implementation Using `map`
