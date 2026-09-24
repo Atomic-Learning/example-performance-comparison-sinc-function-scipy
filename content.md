@@ -119,4 +119,4 @@ The fastest approach is using `scipy.special.sinc()` on a NumPy array, as it lev
 
 # Choosing the Right Implementation
 
-In most cases, using the SciPy implementation with a NumPy array is the preferred approach. It is clearer and more readable, and requires the smallest amount of code to be written, maintained and tested. Even if being applied to a single value, the performance costs are small as the overall operation is not expensive, and so the convenience and readability benefits outweigh the minor performance considerations.
+In most cases, using the SciPy implementation with a NumPy array is the preferred approach. It is clearer and more readable, and requires the smallest amount of code to be written, maintained and tested. Even if being applied to a single value, the performance costs of an individual calculation are small as the overall operation is not expensive, and so the convenience and readability benefits outweigh the minor performance considerations.
