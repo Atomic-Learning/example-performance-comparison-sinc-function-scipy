@@ -1,6 +1,6 @@
 {
-    "title": "SciPy: Sinc Function Performance",
-    "slug": "scipy-performance-sinc-function",
+    "title": "Example: Performance Comparison of Sinc Function Implementations Using SciPy",
+    "slug": "example-performance-comparison-sinc-function-scipy",
     "description": "Compares the time taken to calculate the sinc function for a single value and for a sequence of values using a custom Python implementation versus SciPy's sinc function, showing that the best choice depends on the input type.",
     "authors": [
         "chris-cooling",
