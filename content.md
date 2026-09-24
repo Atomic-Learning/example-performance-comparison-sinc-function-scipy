@@ -62,7 +62,7 @@ def sinc_non_scipy(x):
 
 # Create the list we will take the sinc of
 a = []
-for i in range(1, 100000):
+for i in range(1, 1000000):
   a.append(i)
 
 start_time = time.time()
@@ -101,7 +101,7 @@ from scipy.special import sinc
 import numpy as np
 
 # Create the array we will take the sinc of
-a = np.arange(1, 100000)
+a = np.arange(1, 1000000)
 
 start_time = time.time()
 c = sinc(a)
