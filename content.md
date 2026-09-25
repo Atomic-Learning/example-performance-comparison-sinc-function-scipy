@@ -45,7 +45,7 @@ print('SciPy single sinc:', time.time() - start_time)
 
 For a single scalar value, the hand-written implementation using Python's `math` module is typically faster than `scipy.special.sinc()`. This is because the overhead of calling a compiled function in SciPy outweighs the simple arithmetic operations performed in the custom implementation.
 
-# Array Sinc Comparison
+# Sinc of a Sequence Comparison
 
 In this comparison we will calculate the sinc function for a large sequence of values, both using a custom Python implementation and `scipy.special.sinc()`. This will demonstrate the performance difference when working with arrays.
 
