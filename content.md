@@ -72,7 +72,7 @@ print('Loop-based sinc of list:', time.time()- start_time)
 
 ## Native Python Implementation Using `map`
 
-The code below times the performance of calculating the sinc function of a list of values using a custom Python implementation, applied using the `map` function. This is more advanced code, so don't worry if it looks unfamiliar. It has been chosen to be the most efficient way to apply a function to each element of a list in pure Python.
+The code below times the performance of calculating the sinc function of a list of values using a custom Python implementation, applied using the `map` function.
 
 ```py-cell
 import time

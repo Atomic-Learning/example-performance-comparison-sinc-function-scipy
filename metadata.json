@@ -16,7 +16,10 @@
         "programming-profiling-time-variability",
         "python-measuring-elapsed-time-with-time-function",
         "python-range-in-for-loops",
-        "python-importing-from-submodules-in-packages"
+        "python-importing-from-submodules-in-packages",
+        "python-lists-append",
+        "python-making-lists-from-ranges",
+        "python-making-lists-from-maps"
     ],
     "related": [
     ],
