@@ -12,7 +12,7 @@ The code below defines a custom Python implementation of the sinc function and t
 import time
 import math
 
-# Define a non-SciPy sinc
+# Define a sinc function using native Python
 def sinc_non_scipy(x):
   return math.sin(math.pi * x)/(math.pi * x)
 
@@ -61,9 +61,7 @@ def sinc_non_scipy(x):
   return math.sin(math.pi * x)/(math.pi * x)
 
 # Create the list we will take the sinc of
-a = []
-for i in range(1, 1000000):
-  a.append(i)
+a = list(range(1, 1000000))
 
 start_time = time.time()
 b = []
@@ -84,7 +82,7 @@ def sinc_non_scipy(x):
   return math.sin(math.pi * x)/(math.pi * x)
 
 # Create the list we will take the sinc of
-a = [i for i in range(1, 1000000)]
+a = list(range(1, 1000000))
 
 start_time = time.time()
 c = list(map(sinc_non_scipy, a))

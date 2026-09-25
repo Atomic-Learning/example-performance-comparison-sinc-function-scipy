@@ -10,7 +10,7 @@
         "python",
         "scipy"
     ],
-    "duration": 10,
+    "duration": 8,
     "prerequisites": [
         "scipy-sinc",
         "programming-profiling-time-variability",
